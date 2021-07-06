@@ -11,7 +11,7 @@ class ShoppingList extends Component {
             <li>Oculus</li>
           </ul>
         </div>
-      );
+      );;
     }
   }
 
