@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+// import ImportComponent from './R003_importConponent'
+// import ShoppingList from './ShoppingList'
+// import LifeCycleEx from './R005_LifeCycleEX'
+// import LifeCycleEx from './R006_LifeCycleEx'
+// import LifeCycleEx from './R007_LifeCycleEx'
+// import LifeCycleEx from './R008_LifeCycleEx'
+import Es6 from './R009_Es6'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <h1>Start REact 200! </h1>
+      <p>CSS apply</p>
+      <Es6/>
+    </div>  
   );
 }
+
+
 
 export default App;
