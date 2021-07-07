@@ -8,14 +8,19 @@ import './App.css';
 // import LifeCycleEx from './R006_LifeCycleEx'
 // import LifeCycleEx from './R007_LifeCycleEx'
 // import LifeCycleEx from './R008_LifeCycleEx'
-import Es6 from './R009_Es6'
+// import Es6 from './R009_Es6'
+import Variable from './R010_Variable'
+import SpreadOperator from './R011_SpreadOperator'
+
 
 function App() {
   return (
     <div>
       <h1>Start REact 200! </h1>
       <p>CSS apply</p>
-      <Es6/>
+      <Variable/>
+      <SpreadOperator/>
+    
     </div>  
   );
 }
