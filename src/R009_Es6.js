@@ -23,7 +23,7 @@ class R009_Es6 extends Component{
         console.log('startWith : ' +LongString.startsWith("ES6에 추가된 "));
         console.log('endwith : '+LongString.endsWith("함수들입니다. "));
         console.log('include : '+LongString.includes("추가된 String"));
-
+//안녕하세요 
 
     }
 
